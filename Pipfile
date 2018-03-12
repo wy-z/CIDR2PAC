@@ -8,11 +8,12 @@ name = "pypi"
 [dev-packages]
 
 pylint = "*"
-"autopep8" = "*"
-"flake8" = "*"
+"pep8" = "*"
+mypy = "*"
+yapf = "*"
 
 
 [packages]
 
 "jinja2" = "*"
-requests = "*"
+click = "*"
